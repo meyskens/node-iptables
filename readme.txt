@@ -11,7 +11,7 @@ Here is an example usage:
     var iptables = require('iptables');
 
     iptables.allow({
-        protocol : tcp,
+        protocol : 'tcp',
         src : '10.1.1.5',
         dport : 34567,
         sudo : true
